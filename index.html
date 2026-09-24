@@ -1168,10 +1168,6 @@ footer{
 
 <body>
 
-<!-- =========================
-     NAVBAR
-========================= -->
-
 <header class="navbar">
   <div class="nav-inner">
 
@@ -1205,1140 +1201,983 @@ footer{
   </div>
 </header>
 
-
-<!-- =========================
-     SITE PUBLIC
-========================= -->
-
 <main id="publicSite" class="public">
 
-  <!-- HERO -->
+<section class="hero">
+<div class="container">
+<div class="hero-grid">
 
-  <section class="hero">
-    <div class="container">
+<div>
 
-      <div class="hero-grid">
+<div class="badge">
+<span class="badge-dot"></span>
+INSCRIPTIONS OUVERTES
+</div>
 
-        <div>
+<h1>
+Votre permis,
+<span>notre priorité.</span>
+</h1>
 
-          <div class="badge">
-            <span class="badge-dot"></span>
-            INSCRIPTIONS OUVERTES
-          </div>
+<p>
+Passez votre permis avec Drive Académie.
+Inscription en ligne, suivi de votre dossier,
+documents et accompagnement réunis dans un seul espace.
+</p>
 
-          <h1>
-            Votre permis,
-            <span>notre priorité.</span>
-          </h1>
+<div class="hero-buttons">
 
-          <p>
-            Passez votre permis avec Drive Académie.
-            Inscription en ligne, suivi de votre dossier,
-            documents et accompagnement réunis dans un seul espace.
-          </p>
+<button
+class="btn btn-primary btn-large"
+onclick="scrollToOffers()">
+Découvrir les formations →
+</button>
 
-          <div class="hero-buttons">
+<button
+class="btn btn-outline btn-large"
+onclick="openAuth('signup')">
+Commencer mon inscription
+</button>
 
-            <button
-              class="btn btn-primary btn-large"
-              onclick="scrollToOffers()"
-            >
-              Découvrir les formations →
-            </button>
+</div>
 
-            <button
-              class="btn btn-outline btn-large"
-              onclick="openAuth('signup')"
-            >
-              Commencer mon inscription
-            </button>
+<div class="hero-mini">
 
-          </div>
+<div class="hero-stat">
+<strong>750€</strong>
+Offre d'ouverture
+</div>
 
-          <div class="hero-mini">
+<div class="hero-stat">
+<strong>2× / 3×</strong>
+Paiement sans frais*
+</div>
 
-            <div class="hero-stat">
-              <strong>750€</strong>
-              Offre d'ouverture
-            </div>
+<div class="hero-stat">
+<strong>5</strong>
+Centres
+</div>
 
-            <div class="hero-stat">
-              <strong>2× / 3×</strong>
-              Paiement sans frais*
-            </div>
+</div>
 
-            <div class="hero-stat">
-              <strong>5</strong>
-              Centres
-            </div>
+</div>
 
-          </div>
+<div class="hero-card">
 
-        </div>
+<div class="car-icon">🚘</div>
 
+<div class="offer-highlight">
 
-        <div class="hero-card">
+<div class="offer-top">
+<span>OFFRE D'OUVERTURE</span>
+<span>LIMITÉE</span>
+</div>
 
-          <div class="car-icon">🚘</div>
+<div class="offer-price">
+750€ <small>TTC</small>
+</div>
 
-          <div class="offer-highlight">
+<p>
+Commencez votre parcours permis B
+avec notre offre d'ouverture.
+</p>
 
-            <div class="offer-top">
-              <span>OFFRE D'OUVERTURE</span>
-              <span>LIMITÉE</span>
-            </div>
+<button
+class="btn btn-primary full-btn"
+onclick="selectOffer('Permis B — Offre ouverture',750)">
+Choisir cette offre
+</button>
 
-            <div class="offer-price">
-              750€ <small>TTC</small>
-            </div>
+</div>
 
-            <p>
-              Commencez votre parcours permis B
-              avec notre offre d'ouverture.
-            </p>
+</div>
 
-            <button
-              class="btn btn-primary full-btn"
-              onclick="selectOffer('Permis B — Offre ouverture',750)"
-            >
-              Choisir cette offre
-            </button>
+</div>
+</div>
+</section>
 
-          </div>
+<section class="section" id="offres">
 
-        </div>
+<div class="container">
 
-      </div>
+<div class="section-head">
+<div class="section-kicker">Nos formations</div>
 
-    </div>
-  </section>
+<h2>
+Trouvez la formule<br>
+qui vous correspond.
+</h2>
 
+<p>
+Des formules auto et moto adaptées à votre parcours,
+avec accès à votre espace personnel pour suivre votre inscription.
+</p>
+</div>
 
-  <!-- OFFRES -->
+<div class="offers-grid">
 
-  <section class="section" id="offres">
+<article class="offer-card featured">
 
-    <div class="container">
+<div class="popular">POPULAIRE</div>
+<div class="offer-icon">🚘</div>
 
-      <div class="section-head">
-        <div class="section-kicker">Nos formations</div>
+<h3>Permis B</h3>
 
-        <h2>
-          Trouvez la formule<br>
-          qui vous correspond.
-        </h2>
+<p class="desc">
+Formule 20 leçons de conduite.
+</p>
 
-        <p>
-          Des formules auto et moto adaptées à votre parcours,
-          avec accès à votre espace personnel pour suivre votre inscription.
-        </p>
-      </div>
+<div class="price">
+<strong>990€</strong>
+<span>/ formule</span>
+</div>
 
+<ul class="features">
+<li>20 leçons</li>
+<li>Accès code en ligne 6 mois</li>
+<li>Livret numérique</li>
+<li>Frais de gestion inclus</li>
+</ul>
 
-      <div class="offers-grid">
+<button
+class="btn btn-primary full-btn"
+onclick="selectOffer('Permis B — 20 leçons',990)">
+Choisir
+</button>
 
-        <!-- B 20 -->
+</article>
 
-        <article class="offer-card featured">
+<article class="offer-card">
 
-          <div class="popular">POPULAIRE</div>
+<div class="offer-icon">🚗</div>
 
-          <div class="offer-icon">🚘</div>
+<h3>Permis B</h3>
 
-          <h3>Permis B</h3>
+<p class="desc">
+Formule renforcée de 30 leçons.
+</p>
 
-          <p class="desc">
-            Formule 20 leçons de conduite.
-          </p>
+<div class="price">
+<strong>1485€</strong>
+<span>/ formule</span>
+</div>
 
-          <div class="price">
-            <strong>990€</strong>
-            <span>/ formule</span>
-          </div>
+<ul class="features">
+<li>30 leçons</li>
+<li>Code en ligne 6 mois</li>
+<li>Livret numérique</li>
+<li>Frais de gestion inclus</li>
+</ul>
 
-          <ul class="features">
-            <li>20 leçons</li>
-            <li>Accès code en ligne 6 mois</li>
-            <li>Livret numérique</li>
-            <li>Frais de gestion inclus</li>
-          </ul>
+<button
+class="btn btn-outline full-btn"
+onclick="selectOffer('Permis B — 30 leçons',1485)">
+Choisir
+</button>
 
-          <button
-            class="btn btn-primary full-btn"
-            onclick="selectOffer('Permis B — 20 leçons',990)"
-          >
-            Choisir
-          </button>
+</article>
 
-        </article>
+<article class="offer-card">
 
+<div class="offer-icon">⚡</div>
 
-        <!-- B 30 -->
+<h3>Permis B Express</h3>
 
-        <article class="offer-card">
+<p class="desc">
+20 leçons avec formule Express.
+</p>
 
-          <div class="offer-icon">🚗</div>
+<div class="price">
+<strong>1485€</strong>
+<span>/ formule</span>
+</div>
 
-          <h3>Permis B</h3>
+<ul class="features">
+<li>20 leçons</li>
+<li>Formule Express</li>
+<li>Livret numérique</li>
+<li>Accompagnement</li>
+</ul>
 
-          <p class="desc">
-            Formule renforcée de 30 leçons.
-          </p>
+<button
+class="btn btn-outline full-btn"
+onclick="selectOffer('Permis B Express — 20 leçons',1485)">
+Choisir
+</button>
 
-          <div class="price">
-            <strong>1485€</strong>
-            <span>/ formule</span>
-          </div>
+</article>
 
-          <ul class="features">
-            <li>30 leçons</li>
-            <li>Code en ligne 6 mois</li>
-            <li>Livret numérique</li>
-            <li>Frais de gestion inclus</li>
-          </ul>
+<article class="offer-card">
 
-          <button
-            class="btn btn-outline full-btn"
-            onclick="selectOffer('Permis B — 30 leçons',1485)"
-          >
-            Choisir
-          </button>
+<div class="offer-icon">⚙️</div>
 
-        </article>
+<h3>Permis BVA</h3>
 
+<p class="desc">
+Conduite sur véhicule automatique.
+</p>
 
-        <!-- EXPRESS -->
+<div class="price">
+<strong>800€</strong>
+<span>/ 13 leçons</span>
+</div>
 
-        <article class="offer-card">
+<ul class="features">
+<li>13 leçons</li>
+<li>Code en ligne</li>
+<li>Livret numérique</li>
+<li>Gestion incluse</li>
+</ul>
 
-          <div class="offer-icon">⚡</div>
+<button
+class="btn btn-outline full-btn"
+onclick="selectOffer('Permis BVA — 13 leçons',800)">
+Choisir
+</button>
 
-          <h3>Permis B Express</h3>
+</article>
 
-          <p class="desc">
-            20 leçons avec formule Express.
-          </p>
+<article class="offer-card">
 
-          <div class="price">
-            <strong>1485€</strong>
-            <span>/ formule</span>
-          </div>
+<div class="offer-icon">🔵</div>
 
-          <ul class="features">
-            <li>20 leçons</li>
-            <li>Formule Express</li>
-            <li>Livret numérique</li>
-            <li>Accompagnement</li>
-          </ul>
+<h3>Permis BVA</h3>
 
-          <button
-            class="btn btn-outline full-btn"
-            onclick="selectOffer('Permis B Express — 20 leçons',1485)"
-          >
-            Choisir
-          </button>
+<p class="desc">
+Formule complète 26 leçons.
+</p>
 
-        </article>
+<div class="price">
+<strong>1600€</strong>
+<span>/ formule</span>
+</div>
 
+<ul class="features">
+<li>26 leçons</li>
+<li>Code en ligne</li>
+<li>Livret numérique</li>
+<li>Accompagnement</li>
+</ul>
 
-        <!-- BVA -->
+<button
+class="btn btn-outline full-btn"
+onclick="selectOffer('Permis BVA — 26 leçons',1600)">
+Choisir
+</button>
 
-        <article class="offer-card">
+</article>
 
-          <div class="offer-icon">⚙️</div>
+<article class="offer-card">
 
-          <h3>Permis BVA</h3>
+<div class="offer-icon">🏍️</div>
 
-          <p class="desc">
-            Conduite sur véhicule automatique.
-          </p>
+<h3>Permis A1 / A2</h3>
 
-          <div class="price">
-            <strong>800€</strong>
-            <span>/ 13 leçons</span>
-          </div>
+<p class="desc">
+Formation moto en boîte manuelle.
+</p>
 
-          <ul class="features">
-            <li>13 leçons</li>
-            <li>Code en ligne</li>
-            <li>Livret numérique</li>
-            <li>Gestion incluse</li>
-          </ul>
+<div class="price">
+<strong>850€</strong>
+<span>/ formule</span>
+</div>
 
-          <button
-            class="btn btn-outline full-btn"
-            onclick="selectOffer('Permis BVA — 13 leçons',800)"
-          >
-            Choisir
-          </button>
+<ul class="features">
+<li>A1 / A2</li>
+<li>Formation manuelle</li>
+<li>Accompagnement</li>
+<li>Suivi du dossier</li>
+</ul>
 
-        </article>
+<button
+class="btn btn-outline full-btn"
+onclick="selectOffer('Permis A1 / A2',850)">
+Choisir
+</button>
 
+</article>
 
-        <!-- BVA 26 -->
+<article class="offer-card">
 
-        <article class="offer-card">
+<div class="offer-icon">🏁</div>
 
-          <div class="offer-icon">🔵</div>
+<h3>Passerelle A2 → A</h3>
 
-          <h3>Permis BVA</h3>
+<p class="desc">
+Passez de la catégorie A2 à A.
+</p>
 
-          <p class="desc">
-            Formule complète 26 leçons.
-          </p>
+<div class="price">
+<strong>350€</strong>
+</div>
 
-          <div class="price">
-            <strong>1600€</strong>
-            <span>/ formule</span>
-          </div>
+<ul class="features">
+<li>Formation passerelle</li>
+<li>Accompagnement</li>
+<li>Dossier administratif</li>
+</ul>
 
-          <ul class="features">
-            <li>26 leçons</li>
-            <li>Code en ligne</li>
-            <li>Livret numérique</li>
-            <li>Accompagnement</li>
-          </ul>
+<button
+class="btn btn-outline full-btn"
+onclick="selectOffer('Passerelle A2 → A',350)">
+Choisir
+</button>
 
-          <button
-            class="btn btn-outline full-btn"
-            onclick="selectOffer('Permis BVA — 26 leçons',1600)"
-          >
-            Choisir
-          </button>
+</article>
 
-        </article>
+<article class="offer-card">
 
+<div class="offer-icon">🔄</div>
 
-        <!-- MOTO -->
+<h3>Passerelle BVA → B</h3>
 
-        <article class="offer-card">
+<p class="desc">
+Passez de la boîte automatique à manuelle.
+</p>
 
-          <div class="offer-icon">🏍️</div>
+<div class="price">
+<strong>350€</strong>
+</div>
+
+<ul class="features">
+<li>Formation passerelle</li>
+<li>Accompagnement</li>
+<li>Dossier administratif</li>
+</ul>
+
+<button
+class="btn btn-outline full-btn"
+onclick="selectOffer('Passerelle BVA → B',350)">
+Choisir
+</button>
+
+</article>
+
+</div>
+</div>
+</section>
+
+<section class="section" id="avantages">
+
+<div class="container">
+
+<div class="section-head">
+<div class="section-kicker">Votre parcours</div>
+<h2>Tout au même endroit.</h2>
+</div>
+
+<div class="advantages">
 
-          <h3>Permis A1 / A2</h3>
+<div class="advantage">
+<div class="advantage-icon">📱</div>
+<h3>Inscription en ligne</h3>
+<p>
+Commencez votre dossier directement depuis votre téléphone ou ordinateur.
+</p>
+</div>
 
-          <p class="desc">
-            Formation moto en boîte manuelle.
-          </p>
+<div class="advantage">
+<div class="advantage-icon">📁</div>
+<h3>Dossier numérique</h3>
+<p>
+Retrouvez vos informations et documents dans votre espace personnel.
+</p>
+</div>
 
-          <div class="price">
-            <strong>850€</strong>
-            <span>/ formule</span>
-          </div>
+<div class="advantage">
+<div class="advantage-icon">📊</div>
+<h3>Suivi du dossier</h3>
+<p>
+Visualisez les éléments complétés et ceux qu'il vous reste à fournir.
+</p>
+</div>
 
-          <ul class="features">
-            <li>A1 / A2</li>
-            <li>Formation manuelle</li>
-            <li>Accompagnement</li>
-            <li>Suivi du dossier</li>
-          </ul>
+<div class="advantage">
+<div class="advantage-icon">💳</div>
+<h3>Paiement</h3>
+<p>
+Votre espace est prévu pour intégrer le paiement en ligne.
+</p>
+</div>
 
-          <button
-            class="btn btn-outline full-btn"
-            onclick="selectOffer('Permis A1 / A2',850)"
-          >
-            Choisir
-          </button>
+</div>
+</div>
+</section>
 
-        </article>
-
-
-        <!-- PASSERELLE A -->
-
-        <article class="offer-card">
-
-          <div class="offer-icon">🏁</div>
-
-          <h3>Passerelle A2 → A</h3>
-
-          <p class="desc">
-            Passez de la catégorie A2 à A.
-          </p>
-
-          <div class="price">
-            <strong>350€</strong>
-          </div>
-
-          <ul class="features">
-            <li>Formation passerelle</li>
-            <li>Accompagnement</li>
-            <li>Dossier administratif</li>
-          </ul>
-
-          <button
-            class="btn btn-outline full-btn"
-            onclick="selectOffer('Passerelle A2 → A',350)"
-          >
-            Choisir
-          </button>
-
-        </article>
-
-
-        <!-- PASSERELLE B -->
-
-        <article class="offer-card">
-
-          <div class="offer-icon">🔄</div>
-
-          <h3>Passerelle BVA → B</h3>
-
-          <p class="desc">
-            Passez de la boîte automatique à manuelle.
-          </p>
-
-          <div class="price">
-            <strong>350€</strong>
-          </div>
-
-          <ul class="features">
-            <li>Formation passerelle</li>
-            <li>Accompagnement</li>
-            <li>Dossier administratif</li>
-          </ul>
-
-          <button
-            class="btn btn-outline full-btn"
-            onclick="selectOffer('Passerelle BVA → B',350)"
-          >
-            Choisir
-          </button>
-
-        </article>
-
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- AVANTAGES -->
-
-  <section class="section" id="avantages">
-
-    <div class="container">
-
-      <div class="section-head">
-        <div class="section-kicker">Votre parcours</div>
-        <h2>Tout au même endroit.</h2>
-      </div>
-
-      <div class="advantages">
-
-        <div class="advantage">
-          <div class="advantage-icon">📱</div>
-          <h3>Inscription en ligne</h3>
-          <p>
-            Commencez votre dossier directement depuis votre téléphone ou ordinateur.
-          </p>
-        </div>
-
-        <div class="advantage">
-          <div class="advantage-icon">📁</div>
-          <h3>Dossier numérique</h3>
-          <p>
-            Retrouvez vos informations et documents dans votre espace personnel.
-          </p>
-        </div>
-
-        <div class="advantage">
-          <div class="advantage-icon">📊</div>
-          <h3>Suivi du dossier</h3>
-          <p>
-            Visualisez les éléments complétés et ceux qu'il vous reste à fournir.
-          </p>
-        </div>
-
-        <div class="advantage">
-          <div class="advantage-icon">💳</div>
-          <h3>Paiement</h3>
-          <p>
-            Votre espace est prévu pour intégrer le paiement en ligne.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- CENTRES -->
-
-  <section class="section" id="centres">
-
-    <div class="container">
-
-      <div class="section-head">
-        <div class="section-kicker">Nos implantations</div>
-        <h2>Retrouvez-nous près de chez vous.</h2>
-      </div>
-
-      <div class="centers">
-
-        <div class="center">
-          <div class="center-icon">📍</div>
-          <div>
-            <h3>Noisy-le-Sec</h3>
-            <p>21 rue Brément, 93130 Noisy-le-Sec</p>
-          </div>
-        </div>
-
-        <div class="center">
-          <div class="center-icon">📍</div>
-          <div>
-            <h3>Villemomble</h3>
-            <p>66 avenue du Raincy, 93250 Villemomble</p>
-          </div>
-        </div>
-
-        <div class="center">
-          <div class="center-icon">📍</div>
-          <div>
-            <h3>Clichy-sous-Bois</h3>
-            <p>2 allée de Gagny, 93390 Clichy-sous-Bois</p>
-          </div>
-        </div>
-
-        <div class="center">
-          <div class="center-icon">📍</div>
-          <div>
-            <h3>Aulnay-sous-Bois</h3>
-            <p>14 place Roger Vaillant, 93600 Aulnay-sous-Bois</p>
-          </div>
-        </div>
-
-        <div class="center">
-          <div class="center-icon">📍</div>
-          <div>
-            <h3>Villetaneuse</h3>
-            <p>Centre commercial, 8 route de Saint-Leu, 93430 Villetaneuse</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- CONTACT -->
-
-  <section class="section" id="contact">
-
-    <div class="container">
-
-      <div class="contact-box">
-
-        <div>
-          <div class="section-kicker">Contact</div>
-
-          <h2>
-            Une question sur votre permis ?
-          </h2>
-
-          <p>
-            Notre équipe vous accueille et vous accompagne
-            dans votre projet de formation.
-          </p>
-
-          <br>
-
-          <p>
-            <strong>Horaires</strong><br>
-            Lundi à jeudi : 10h–12h / 14h–19h<br>
-            Vendredi : 10h–12h / 15h–19h<br>
-            Samedi : 10h–14h
-          </p>
-        </div>
-
-        <div class="contact-list">
-
-          <div class="contact-item">
-            <small>Téléphone</small>
-            <strong>07.54.06.29.50</strong>
-          </div>
-
-          <div class="contact-item">
-            <small>Email</small>
-            <strong>Driveacademie93@gmail.com</strong>
-          </div>
-
-          <div class="contact-item">
-            <small>Adresse principale</small>
-            <strong>
-              14 place Roger Vaillant,<br>
-              93600 Aulnay-sous-Bois
-            </strong>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-  </section>
+<section class="section" id="centres">
+
+<div class="container">
+
+<div class="section-head">
+<div class="section-kicker">Nos implantations</div>
+<h2>Retrouvez-nous près de chez vous.</h2>
+</div>
+
+<div class="centers">
+
+<div class="center">
+<div class="center-icon">📍</div>
+<div>
+<h3>Noisy-le-Sec</h3>
+<p>21 rue Brément, 93130 Noisy-le-Sec</p>
+</div>
+</div>
+
+<div class="center">
+<div class="center-icon">📍</div>
+<div>
+<h3>Villemomble</h3>
+<p>66 avenue du Raincy, 93250 Villemomble</p>
+</div>
+</div>
+
+<div class="center">
+<div class="center-icon">📍</div>
+<div>
+<h3>Clichy-sous-Bois</h3>
+<p>2 allée de Gagny, 93390 Clichy-sous-Bois</p>
+</div>
+</div>
+
+<div class="center">
+<div class="center-icon">📍</div>
+<div>
+<h3>Aulnay-sous-Bois</h3>
+<p>14 place Roger Vaillant, 93600 Aulnay-sous-Bois</p>
+</div>
+</div>
+
+<div class="center">
+<div class="center-icon">📍</div>
+<div>
+<h3>Villetaneuse</h3>
+<p>Centre commercial, 8 route de Saint-Leu, 93430 Villetaneuse</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="section" id="contact">
+
+<div class="container">
+
+<div class="contact-box">
+
+<div>
+
+<div class="section-kicker">Contact</div>
+
+<h2>
+Une question sur votre permis ?
+</h2>
+
+<p>
+Notre équipe vous accueille et vous accompagne
+dans votre projet de formation.
+</p>
+
+<br>
+
+<p>
+<strong>Horaires</strong><br>
+Lundi à jeudi : 10h–12h / 14h–19h<br>
+Vendredi : 10h–12h / 15h–19h<br>
+Samedi : 10h–14h
+</p>
+
+</div>
+
+<div class="contact-list">
+
+<div class="contact-item">
+<small>Téléphone</small>
+<strong>07.54.06.29.50</strong>
+</div>
+
+<div class="contact-item">
+<small>Email</small>
+<strong>Driveacademie93@gmail.com</strong>
+</div>
+
+<div class="contact-item">
+<small>Adresse principale</small>
+<strong>
+14 place Roger Vaillant,<br>
+93600 Aulnay-sous-Bois
+</strong>
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
 
 </main>
 
-
-<!-- =========================
-     ESPACE ÉLÈVE
-========================= -->
-
 <section id="studentApp" class="app">
 
-  <div class="container">
+<div class="container">
 
-    <div class="dashboard-top">
+<div class="dashboard-top">
 
-      <div class="dashboard-title">
-        <div class="section-kicker">Mon espace</div>
-        <h1 id="welcomeTitle">Bonjour 👋</h1>
-        <p>
-          Retrouvez ici votre dossier Drive Académie.
-        </p>
-      </div>
+<div class="dashboard-title">
+<div class="section-kicker">Mon espace</div>
+<h1 id="welcomeTitle">Bonjour 👋</h1>
+<p>
+Retrouvez ici votre dossier Drive Académie.
+</p>
+</div>
 
-      <div class="user-pill">
+<div class="user-pill">
 
-        <div class="avatar" id="avatarLetter">
-          D
-        </div>
+<div class="avatar" id="avatarLetter">
+D
+</div>
 
-        <div>
-          <strong id="userEmail">
-            —
-          </strong>
-        </div>
+<div>
+<strong id="userEmail">—</strong>
+</div>
 
-        <button
-          class="btn btn-outline"
-          onclick="logout()"
-          style="padding:8px 10px;font-size:10px;"
-        >
-          Déconnexion
-        </button>
+<button
+class="btn btn-outline"
+onclick="logout()"
+style="padding:8px 10px;font-size:10px;">
+Déconnexion
+</button>
 
-      </div>
+</div>
 
-    </div>
+</div>
 
+<div class="dashboard-grid">
 
-    <div class="dashboard-grid">
+<div class="panel">
 
-      <div class="panel">
+<h2>Mon inscription</h2>
 
-        <h2>Mon inscription</h2>
+<div class="panel-sub">
+Suivez l'avancement de votre dossier.
+</div>
 
-        <div class="panel-sub">
-          Suivez l'avancement de votre dossier.
-        </div>
+<div class="progress-box">
 
-        <div class="progress-box">
+<div class="progress-header">
+<span>Progression</span>
+<strong id="progressText">0%</strong>
+</div>
 
-          <div class="progress-header">
-            <span>Progression</span>
-            <strong id="progressText">0%</strong>
-          </div>
+<div class="progress-bar">
+<div class="progress-fill" id="progressFill"></div>
+</div>
 
-          <div class="progress-bar">
-            <div
-              class="progress-fill"
-              id="progressFill"
-            ></div>
-          </div>
+</div>
 
-        </div>
+<div class="dashboard-actions">
 
+<button
+class="dash-action"
+onclick="showRegistration()">
+<strong>📋 Mon dossier</strong>
+<span>Mes informations personnelles</span>
+</button>
 
-        <div class="dashboard-actions">
+<button
+class="dash-action"
+onclick="showRegistration()">
+<strong>📄 Mes documents</strong>
+<span>Déposer mes justificatifs</span>
+</button>
 
-          <button
-            class="dash-action"
-            onclick="showRegistration()"
-          >
-            <strong>📋 Mon dossier</strong>
-            <span>Mes informations personnelles</span>
-          </button>
+<button
+class="dash-action"
+onclick="paymentPlaceholder()">
+<strong>💳 Paiement</strong>
+<span>Régler ma formation en ligne</span>
+</button>
 
-          <button
-            class="dash-action"
-            onclick="showRegistration()"
-          >
-            <strong>📄 Mes documents</strong>
-            <span>Déposer mes justificatifs</span>
-          </button>
+<button
+class="dash-action"
+onclick="scrollToTopApp()">
+<strong>🏫 Drive Académie</strong>
+<span>Informations de l'auto-école</span>
+</button>
 
-          <button
-            class="dash-action"
-            onclick="paymentPlaceholder()"
-          >
-            <strong>💳 Paiement</strong>
-            <span>Régler ma formation en ligne</span>
-          </button>
+</div>
 
-          <button
-            class="dash-action"
-            onclick="scrollToTopApp()"
-          >
-            <strong>🏫 Drive Académie</strong>
-            <span>Informations de l'auto-école</span>
-          </button>
+</div>
 
-        </div>
+<div class="panel">
 
-      </div>
+<h2>État du dossier</h2>
 
+<div class="panel-sub">
+Les éléments à fournir.
+</div>
 
-      <div class="panel">
+<div class="status-list">
 
-        <h2>État du dossier</h2>
+<div class="status-row">
+<span>Profil</span>
+<span class="status wait" id="statusProfile">
+À compléter
+</span>
+</div>
 
-        <div class="panel-sub">
-          Les éléments à fournir.
-        </div>
+<div class="status-row">
+<span>Inscription</span>
+<span class="status wait" id="statusRegistration">
+À compléter
+</span>
+</div>
 
-        <div class="status-list">
+<div class="status-row">
+<span>Documents</span>
+<span class="status wait" id="statusDocuments">
+À compléter
+</span>
+</div>
 
-          <div class="status-row">
-            <span>Profil</span>
-            <span class="status wait" id="statusProfile">
-              À compléter
-            </span>
-          </div>
+<div class="status-row">
+<span>Paiement</span>
+<span class="status wait">
+À venir
+</span>
+</div>
 
-          <div class="status-row">
-            <span>Inscription</span>
-            <span class="status wait" id="statusRegistration">
-              À compléter
-            </span>
-          </div>
+</div>
 
-          <div class="status-row">
-            <span>Documents</span>
-            <span class="status wait" id="statusDocuments">
-              À compléter
-            </span>
-          </div>
+</div>
 
-          <div class="status-row">
-            <span>Paiement</span>
-            <span class="status wait">
-              À venir
-            </span>
-          </div>
+</div>
 
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
+</div>
 
 </section>
 
-
-<!-- =========================
-     FORMULAIRE INSCRIPTION
-========================= -->
-
 <div class="modal" id="registrationModal">
 
-  <div class="modal-card form-panel">
+<div class="modal-card form-panel">
 
-    <button
-      class="modal-close"
-      onclick="closeRegistration()"
-    >
-      ×
-    </button>
+<button
+class="modal-close"
+onclick="closeRegistration()">
+×
+</button>
 
-    <div class="section-kicker">
-      Mon dossier
-    </div>
+<div class="section-kicker">
+Mon dossier
+</div>
 
-    <h2>Compléter mon inscription</h2>
+<h2>Compléter mon inscription</h2>
 
-    <p>
-      Renseignez vos informations puis ajoutez les documents demandés.
-    </p>
+<p>
+Renseignez vos informations puis ajoutez les documents demandés.
+</p>
 
+<form id="registrationForm">
 
-    <form id="registrationForm">
+<div class="form-grid">
 
-      <div class="form-grid">
+<div class="field">
+<label>Prénom</label>
+<input id="firstName" type="text" required>
+</div>
 
-        <div class="field">
-          <label>Prénom</label>
-          <input
-            id="firstName"
-            type="text"
-            required
-          >
-        </div>
+<div class="field">
+<label>Nom</label>
+<input id="lastName" type="text" required>
+</div>
 
-        <div class="field">
-          <label>Nom</label>
-          <input
-            id="lastName"
-            type="text"
-            required
-          >
-        </div>
+<div class="field">
+<label>Date de naissance</label>
+<input id="birthDate" type="date" required>
+</div>
 
-        <div class="field">
-          <label>Date de naissance</label>
-          <input
-            id="birthDate"
-            type="date"
-            required
-          >
-        </div>
+<div class="field">
+<label>Téléphone</label>
+<input id="phone" type="tel" required>
+</div>
 
-        <div class="field">
-          <label>Téléphone</label>
-          <input
-            id="phone"
-            type="tel"
-            required
-          >
-        </div>
+<div class="field full">
+<label>Adresse</label>
+<input id="address" type="text" required>
+</div>
 
-        <div class="field full">
-          <label>Adresse</label>
-          <input
-            id="address"
-            type="text"
-            required
-          >
-        </div>
+<div class="field">
+<label>Ville</label>
+<input id="city" type="text" required>
+</div>
 
-        <div class="field">
-          <label>Ville</label>
-          <input
-            id="city"
-            type="text"
-            required
-          >
-        </div>
+<div class="field">
+<label>Code postal</label>
+<input id="postalCode" type="text" required>
+</div>
 
-        <div class="field">
-          <label>Code postal</label>
-          <input
-            id="postalCode"
-            type="text"
-            required
-          >
-        </div>
+<div class="field full">
 
-        <div class="field full">
-          <label>Formation choisie</label>
+<label>Formation choisie</label>
 
-          <select
-            id="selectedOffer"
-            required
-          >
+<select id="selectedOffer" required>
 
-            <option value="">
-              Sélectionner une formation
-            </option>
+<option value="">
+Sélectionner une formation
+</option>
 
-            <option value="Permis B — Offre ouverture|750">
-              Permis B — Offre ouverture — 750€
-            </option>
+<option value="Permis B — Offre ouverture|750">
+Permis B — Offre ouverture — 750€
+</option>
 
-            <option value="Permis B — 20 leçons|990">
-              Permis B — 20 leçons — 990€
-            </option>
+<option value="Permis B — 20 leçons|990">
+Permis B — 20 leçons — 990€
+</option>
 
-            <option value="Permis B — 30 leçons|1485">
-              Permis B — 30 leçons — 1485€
-            </option>
+<option value="Permis B — 30 leçons|1485">
+Permis B — 30 leçons — 1485€
+</option>
 
-            <option value="Permis B Express — 20 leçons|1485">
-              Permis B Express — 20 leçons — 1485€
-            </option>
+<option value="Permis B Express — 20 leçons|1485">
+Permis B Express — 20 leçons — 1485€
+</option>
 
-            <option value="Permis BVA — 13 leçons|800">
-              Permis BVA — 13 leçons — 800€
-            </option>
+<option value="Permis BVA — 13 leçons|800">
+Permis BVA — 13 leçons — 800€
+</option>
 
-            <option value="Permis BVA — 26 leçons|1600">
-              Permis BVA — 26 leçons — 1600€
-            </option>
+<option value="Permis BVA — 26 leçons|1600">
+Permis BVA — 26 leçons — 1600€
+</option>
 
-            <option value="Permis A1 / A2|850">
-              Permis A1 / A2 — 850€
-            </option>
+<option value="Permis A1 / A2|850">
+Permis A1 / A2 — 850€
+</option>
 
-            <option value="Passerelle A2 → A|350">
-              Passerelle A2 → A — 350€
-            </option>
+<option value="Passerelle A2 → A|350">
+Passerelle A2 → A — 350€
+</option>
 
-            <option value="Passerelle BVA → B|350">
-              Passerelle BVA → B — 350€
-            </option>
+<option value="Passerelle BVA → B|350">
+Passerelle BVA → B — 350€
+</option>
 
-          </select>
-
-        </div>
-
-      </div>
-
-
-      <br>
-
-      <h3 style="font-size:16px;margin-bottom:5px;">
-        Documents
-      </h3>
-
-      <p style="margin-bottom:0;">
-        Formats acceptés : PDF, JPG, PNG ou WEBP — 10 Mo maximum.
-      </p>
-
-
-      <div class="documents-grid">
-
-        <div class="document">
-          <label>Pièce d'identité</label>
-          <input type="file" id="piece_identite" accept=".pdf,.jpg,.jpeg,.png,.webp">
-          <small>Carte d'identité ou passeport</small>
-        </div>
-
-        <div class="document">
-          <label>Justificatif de domicile</label>
-          <input type="file" id="justificatif_domicile" accept=".pdf,.jpg,.jpeg,.png,.webp">
-          <small>Moins de 3 mois</small>
-        </div>
-
-        <div class="document">
-          <label>Attestation d'hébergement</label>
-          <input type="file" id="attestation_hebergement" accept=".pdf,.jpg,.jpeg,.png,.webp">
-          <small>Si vous êtes hébergé</small>
-        </div>
-
-        <div class="document">
-          <label>Pièce de l'hébergeant</label>
-          <input type="file" id="piece_hebergeant" accept=".pdf,.jpg,.jpeg,.png,.webp">
-          <small>Si vous êtes hébergé</small>
-        </div>
-
-        <div class="document">
-          <label>E-photo</label>
-          <input type="file" id="ephoto" accept=".jpg,.jpeg,.png,.webp">
-          <small>Photo / e-photo</small>
-        </div>
-
-        <div class="document">
-          <label>ASSR2</label>
-          <input type="file" id="assr2" accept=".pdf,.jpg,.jpeg,.png,.webp">
-        </div>
-
-        <div class="document">
-          <label>Journée d'appel / recensement</label>
-          <input type="file" id="journee_appel" accept=".pdf,.jpg,.jpeg,.png,.webp">
-        </div>
-
-        <div class="document">
-          <label>Permis de conduire</label>
-          <input type="file" id="permis" accept=".pdf,.jpg,.jpeg,.png,.webp">
-        </div>
-
-        <div class="document">
-          <label>Résultat du code</label>
-          <input type="file" id="resultat_code" accept=".pdf,.jpg,.jpeg,.png,.webp">
-        </div>
-
-        <div class="document">
-          <label>Réf. 44 / 48SI</label>
-          <input type="file" id="ref44_48si" accept=".pdf,.jpg,.jpeg,.png,.webp">
-        </div>
-
-      </div>
-
-
-      <div class="form-footer">
-
-        <button
-          type="button"
-          class="btn btn-outline"
-          onclick="closeRegistration()"
-        >
-          Annuler
-        </button>
-
-        <button
-          type="submit"
-          class="btn btn-primary"
-          id="saveRegistrationBtn"
-        >
-          Enregistrer mon dossier
-        </button>
-
-      </div>
-
-    </form>
-
-  </div>
+</select>
 
 </div>
 
+</div>
 
-<!-- =========================
-     AUTH
-========================= -->
+<br>
+
+<h3 style="font-size:16px;margin-bottom:5px;">
+Documents
+</h3>
+
+<p style="margin-bottom:0;">
+Formats acceptés : PDF, JPG, PNG ou WEBP — 10 Mo maximum.
+</p>
+
+<div class="documents-grid">
+
+<div class="document">
+<label>Pièce d'identité</label>
+<input type="file" id="piece_identite" accept=".pdf,.jpg,.jpeg,.png,.webp">
+<small>Carte d'identité ou passeport</small>
+</div>
+
+<div class="document">
+<label>Justificatif de domicile</label>
+<input type="file" id="justificatif_domicile" accept=".pdf,.jpg,.jpeg,.png,.webp">
+<small>Moins de 3 mois</small>
+</div>
+
+<div class="document">
+<label>Attestation d'hébergement</label>
+<input type="file" id="attestation_hebergement" accept=".pdf,.jpg,.jpeg,.png,.webp">
+<small>Si vous êtes hébergé</small>
+</div>
+
+<div class="document">
+<label>Pièce de l'hébergeant</label>
+<input type="file" id="piece_hebergeant" accept=".pdf,.jpg,.jpeg,.png,.webp">
+<small>Si vous êtes hébergé</small>
+</div>
+
+<div class="document">
+<label>E-photo</label>
+<input type="file" id="ephoto" accept=".jpg,.jpeg,.png,.webp">
+<small>Photo / e-photo</small>
+</div>
+
+<div class="document">
+<label>ASSR2</label>
+<input type="file" id="assr2" accept=".pdf,.jpg,.jpeg,.png,.webp">
+</div>
+
+<div class="document">
+<label>Journée d'appel / recensement</label>
+<input type="file" id="journee_appel" accept=".pdf,.jpg,.jpeg,.png,.webp">
+</div>
+
+<div class="document">
+<label>Permis de conduire</label>
+<input type="file" id="permis" accept=".pdf,.jpg,.jpeg,.png,.webp">
+</div>
+
+<div class="document">
+<label>Résultat du code</label>
+<input type="file" id="resultat_code" accept=".pdf,.jpg,.jpeg,.png,.webp">
+</div>
+
+<div class="document">
+<label>Réf. 44 / 48SI</label>
+<input type="file" id="ref44_48si" accept=".pdf,.jpg,.jpeg,.png,.webp">
+</div>
+
+</div>
+
+<div class="form-footer">
+
+<button
+type="button"
+class="btn btn-outline"
+onclick="closeRegistration()">
+Annuler
+</button>
+
+<button
+type="submit"
+class="btn btn-primary"
+id="saveRegistrationBtn">
+Enregistrer mon dossier
+</button>
+
+</div>
+
+</form>
+
+</div>
+</div>
 
 <div class="modal" id="authModal">
 
-  <div class="modal-card">
+<div class="modal-card">
 
-    <button
-      class="modal-close"
-      onclick="closeAuth()"
-    >
-      ×
-    </button>
+<button
+class="modal-close"
+onclick="closeAuth()">
+×
+</button>
 
-    <div class="section-kicker">
-      DRIVE ACADÉMIE
-    </div>
+<div class="section-kicker">
+DRIVE ACADÉMIE
+</div>
 
-    <h2 id="authTitle">
-      Bienvenue
-    </h2>
+<h2 id="authTitle">
+Bienvenue
+</h2>
 
-    <p id="authSubtitle">
-      Connectez-vous à votre espace élève.
-    </p>
+<p id="authSubtitle">
+Connectez-vous à votre espace élève.
+</p>
 
+<div class="auth-tabs">
 
-    <div class="auth-tabs">
+<button
+class="auth-tab active"
+id="loginTab"
+onclick="switchAuth('login')">
+Connexion
+</button>
 
-      <button
-        class="auth-tab active"
-        id="loginTab"
-        onclick="switchAuth('login')"
-      >
-        Connexion
-      </button>
-
-      <button
-        class="auth-tab"
-        id="signupTab"
-        onclick="switchAuth('signup')"
-      >
-        Créer un compte
-      </button>
-
-    </div>
-
-
-    <div
-      class="auth-error"
-      id="authError"
-    ></div>
-
-    <div
-      class="auth-info"
-      id="authInfo"
-    ></div>
-
-
-    <form
-      id="authForm"
-      class="auth-form"
-    >
-
-      <div
-        class="field"
-        id="signupNameField"
-        style="display:none;"
-      >
-
-        <label>Prénom</label>
-
-        <input
-          id="signupFirstName"
-          type="text"
-        >
-
-      </div>
-
-
-      <div class="field">
-
-        <label>Email</label>
-
-        <input
-          id="authEmail"
-          type="email"
-          placeholder="vous@exemple.fr"
-          required
-        >
-
-      </div>
-
-
-      <div class="field">
-
-        <label>Mot de passe</label>
-
-        <input
-          id="authPassword"
-          type="password"
-          placeholder="••••••••"
-          minlength="6"
-          required
-        >
-
-      </div>
-
-
-      <button
-        type="submit"
-        class="btn btn-primary"
-        id="authSubmit"
-      >
-        Se connecter
-      </button>
-
-    </form>
-
-  </div>
+<button
+class="auth-tab"
+id="signupTab"
+onclick="switchAuth('signup')">
+Créer un compte
+</button>
 
 </div>
 
+<div class="auth-error" id="authError"></div>
 
-<!-- TOAST -->
+<div class="auth-info" id="authInfo"></div>
+
+<form id="authForm" class="auth-form">
 
 <div
-  class="toast"
-  id="toast"
-></div>
+class="field"
+id="signupNameField"
+style="display:none;">
 
+<label>Prénom</label>
+
+<input
+id="signupFirstName"
+type="text">
+
+</div>
+
+<div class="field">
+
+<label>Email</label>
+
+<input
+id="authEmail"
+type="email"
+placeholder="vous@exemple.fr"
+required>
+
+</div>
+
+<div class="field">
+
+<label>Mot de passe</label>
+
+<input
+id="authPassword"
+type="password"
+placeholder="••••••••"
+minlength="6"
+required>
+
+</div>
+
+<button
+type="submit"
+class="btn btn-primary"
+id="authSubmit">
+Se connecter
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<div class="toast" id="toast"></div>
 
 <footer>
 
-  <div class="container">
+<div class="container">
 
-    <div class="footer-inner">
+<div class="footer-inner">
 
-      <span>
-        © 2026 Drive Académie — Auto / Moto École
-      </span>
+<span>
+© 2026 Drive Académie — Auto / Moto École
+</span>
 
-      <span>
-        07.54.06.29.50 · Driveacademie93@gmail.com
-      </span>
+<span>
+07.54.06.29.50 · Driveacademie93@gmail.com
+</span>
 
-    </div>
+</div>
 
-  </div>
+</div>
 
 </footer>
-
 
 <script>
 
@@ -2357,6 +2196,14 @@ const supabaseClient =
     SUPABASE_URL,
     SUPABASE_PUBLISHABLE_KEY
   );
+
+
+/* =========================================================
+   GOOGLE APPS SCRIPT
+========================================================= */
+
+const APPS_SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycbyMDKJF0JvZHa4id3lenFgxo--w7KNJmkh_kCKIgYx_8SCvdv1usssTK-UF8HgztD9q/exec";
 
 
 /* =========================================================
@@ -2394,43 +2241,62 @@ const registrationForm =
    INIT
 ========================================================= */
 
-document.addEventListener("DOMContentLoaded", async () => {
-
-  const {
-    data: {
-      session
-    }
-  } = await supabaseClient.auth.getSession();
-
-  if(session){
-
-    currentUser =
-      session.user;
-
-    await loadDashboard();
-
-  }
-
-  const savedOffer =
-    localStorage.getItem("drive_selected_offer");
-
-  if(savedOffer){
+document.addEventListener(
+  "DOMContentLoaded",
+  async () => {
 
     try{
 
-      const offer =
-        JSON.parse(savedOffer);
+      const {
+        data:{
+          session
+        }
+      } =
+        await supabaseClient
+          .auth
+          .getSession();
 
-      setSelectValue(
-        offer.name,
-        offer.price
+      if(session){
+
+        currentUser =
+          session.user;
+
+        await loadDashboard();
+
+      }
+
+      const savedOffer =
+        localStorage.getItem(
+          "drive_selected_offer"
+        );
+
+      if(savedOffer){
+
+        try{
+
+          const offer =
+            JSON.parse(savedOffer);
+
+          setSelectValue(
+            offer.name,
+            offer.price
+          );
+
+        }catch(e){}
+
+      }
+
+    }catch(error){
+
+      console.error(
+        "Erreur initialisation :",
+        error
       );
 
-    }catch(e){}
+    }
 
   }
-
-});
+);
 
 
 /* =========================================================
@@ -2464,55 +2330,82 @@ supabaseClient.auth.onAuthStateChange(
    AUTH UI
 ========================================================= */
 
-function openAuth(mode = "login"){
+function openAuth(
+  mode = "login"
+){
 
   authMode =
     mode;
 
-  switchAuth(mode);
+  switchAuth(
+    mode
+  );
 
-  authModal.classList.add("open");
+  authModal.classList.add(
+    "open"
+  );
 
 }
 
 
 function closeAuth(){
 
-  authModal.classList.remove("open");
+  authModal.classList.remove(
+    "open"
+  );
 
   clearAuthMessages();
 
 }
 
 
-function switchAuth(mode){
+function switchAuth(
+  mode
+){
 
   authMode =
     mode;
 
   const loginTab =
-    document.getElementById("loginTab");
+    document.getElementById(
+      "loginTab"
+    );
 
   const signupTab =
-    document.getElementById("signupTab");
+    document.getElementById(
+      "signupTab"
+    );
 
   const nameField =
-    document.getElementById("signupNameField");
+    document.getElementById(
+      "signupNameField"
+    );
 
   const title =
-    document.getElementById("authTitle");
+    document.getElementById(
+      "authTitle"
+    );
 
   const subtitle =
-    document.getElementById("authSubtitle");
+    document.getElementById(
+      "authSubtitle"
+    );
 
   const submit =
-    document.getElementById("authSubmit");
+    document.getElementById(
+      "authSubmit"
+    );
 
 
   if(mode === "signup"){
 
-    loginTab.classList.remove("active");
-    signupTab.classList.add("active");
+    loginTab.classList.remove(
+      "active"
+    );
+
+    signupTab.classList.add(
+      "active"
+    );
 
     nameField.style.display =
       "grid";
@@ -2528,8 +2421,13 @@ function switchAuth(mode){
 
   }else{
 
-    signupTab.classList.remove("active");
-    loginTab.classList.add("active");
+    signupTab.classList.remove(
+      "active"
+    );
+
+    loginTab.classList.add(
+      "active"
+    );
 
     nameField.style.display =
       "none";
@@ -2554,37 +2452,53 @@ function clearAuthMessages(){
 
   document
     .getElementById("authError")
-    .classList.remove("show");
+    .classList.remove(
+      "show"
+    );
 
   document
     .getElementById("authInfo")
-    .classList.remove("show");
+    .classList.remove(
+      "show"
+    );
 
 }
 
 
-function showAuthError(message){
+function showAuthError(
+  message
+){
 
   const el =
-    document.getElementById("authError");
+    document.getElementById(
+      "authError"
+    );
 
   el.textContent =
     message;
 
-  el.classList.add("show");
+  el.classList.add(
+    "show"
+  );
 
 }
 
 
-function showAuthInfo(message){
+function showAuthInfo(
+  message
+){
 
   const el =
-    document.getElementById("authInfo");
+    document.getElementById(
+      "authInfo"
+    );
 
   el.textContent =
     message;
 
-  el.classList.add("show");
+  el.classList.add(
+    "show"
+  );
 
 }
 
@@ -2605,7 +2519,8 @@ authForm.addEventListener(
       document
         .getElementById("authEmail")
         .value
-        .trim();
+        .trim()
+        .toLowerCase();
 
     const password =
       document
@@ -2613,7 +2528,9 @@ authForm.addEventListener(
         .value;
 
     const submit =
-      document.getElementById("authSubmit");
+      document.getElementById(
+        "authSubmit"
+      );
 
     submit.disabled =
       true;
@@ -2628,27 +2545,42 @@ authForm.addEventListener(
 
         const firstName =
           document
-            .getElementById("signupFirstName")
+            .getElementById(
+              "signupFirstName"
+            )
             .value
             .trim();
+
+
+        if(!firstName){
+
+          throw new Error(
+            "Veuillez renseigner votre prénom."
+          );
+
+        }
 
 
         const {
           data,
           error
         } =
-          await supabaseClient.auth.signUp({
+          await supabaseClient
+            .auth
+            .signUp({
 
-            email,
-            password,
+              email,
 
-            options:{
-              data:{
-                first_name:firstName
+              password,
+
+              options:{
+                data:{
+                  first_name:
+                    firstName
+                }
               }
-            }
 
-          });
+            });
 
 
         if(error)
@@ -2659,12 +2591,17 @@ authForm.addEventListener(
 
           if(data.session){
 
+            currentUser =
+              data.user;
+
             await createOrUpdateProfile(
               data.user,
               firstName
             );
 
             closeAuth();
+
+            await loadDashboard();
 
             toast(
               "Compte créé avec succès."
@@ -2686,10 +2623,15 @@ authForm.addEventListener(
           data,
           error
         } =
-          await supabaseClient.auth.signInWithPassword({
-            email,
-            password
-          });
+          await supabaseClient
+            .auth
+            .signInWithPassword({
+
+              email,
+
+              password
+
+            });
 
 
         if(error)
@@ -2698,7 +2640,16 @@ authForm.addEventListener(
 
         if(data.session){
 
+          currentUser =
+            data.user;
+
+          await createOrUpdateProfile(
+            data.user
+          );
+
           closeAuth();
+
+          await loadDashboard();
 
           toast(
             "Connexion réussie."
@@ -2710,7 +2661,9 @@ authForm.addEventListener(
 
     }catch(error){
 
-      console.error(error);
+      console.error(
+        error
+      );
 
       showAuthError(
         translateSupabaseError(
@@ -2743,8 +2696,13 @@ async function createOrUpdateProfile(
   firstName = ""
 ){
 
+  if(!user)
+    return;
+
+
   const metadata =
     user.user_metadata || {};
+
 
   const finalFirstName =
     firstName ||
@@ -2759,9 +2717,11 @@ async function createOrUpdateProfile(
       .from("profiles")
       .upsert({
 
-        id:user.id,
+        id:
+          user.id,
 
-        email:user.email,
+        email:
+          user.email,
 
         first_name:
           finalFirstName
@@ -2769,11 +2729,14 @@ async function createOrUpdateProfile(
       });
 
 
-  if(error)
+  if(error){
+
     console.error(
       "Profile error:",
       error
     );
+
+  }
 
 }
 
@@ -2810,6 +2773,7 @@ async function loadDashboard(){
   const metadata =
     currentUser.user_metadata || {};
 
+
   let firstName =
     metadata.first_name || "";
 
@@ -2822,7 +2786,10 @@ async function loadDashboard(){
       await supabaseClient
         .from("profiles")
         .select("*")
-        .eq("id",currentUser.id)
+        .eq(
+          "id",
+          currentUser.id
+        )
         .maybeSingle();
 
 
@@ -2834,7 +2801,11 @@ async function loadDashboard(){
 
     }
 
-  }catch(e){}
+  }catch(e){
+
+    console.error(e);
+
+  }
 
 
   if(!firstName)
@@ -2891,7 +2862,10 @@ async function updateDashboardStatus(){
       await supabaseClient
         .from("profiles")
         .select("*")
-        .eq("id",currentUser.id)
+        .eq(
+          "id",
+          currentUser.id
+        )
         .maybeSingle();
 
 
@@ -2902,8 +2876,11 @@ async function updateDashboardStatus(){
         profile.email
       );
 
+  }catch(e){
 
-  }catch(e){}
+    console.error(e);
+
+  }
 
 
   try{
@@ -2914,7 +2891,10 @@ async function updateDashboardStatus(){
       await supabaseClient
         .from("registrations")
         .select("*")
-        .eq("user_id",currentUser.id)
+        .eq(
+          "user_id",
+          currentUser.id
+        )
         .maybeSingle();
 
 
@@ -2934,7 +2914,11 @@ async function updateDashboardStatus(){
 
     }
 
-  }catch(e){}
+  }catch(e){
+
+    console.error(e);
+
+  }
 
 
   try{
@@ -2945,7 +2929,10 @@ async function updateDashboardStatus(){
       await supabaseClient
         .from("documents")
         .select("id")
-        .eq("user_id",currentUser.id);
+        .eq(
+          "user_id",
+          currentUser.id
+        );
 
 
     documentsCount =
@@ -2953,7 +2940,11 @@ async function updateDashboardStatus(){
         ? documents.length
         : 0;
 
-  }catch(e){}
+  }catch(e){
+
+    console.error(e);
+
+  }
 
 
   const progressParts = [
@@ -2972,18 +2963,23 @@ async function updateDashboardStatus(){
       progressParts.filter(Boolean).length
       /
       progressParts.length
-      * 100
+      *
+      100
     );
 
 
   document
-    .getElementById("progressFill")
+    .getElementById(
+      "progressFill"
+    )
     .style.width =
       progress + "%";
 
 
   document
-    .getElementById("progressText")
+    .getElementById(
+      "progressText"
+    )
     .textContent =
       progress + "%";
 
@@ -3012,7 +3008,13 @@ function updateStatus(
 ){
 
   const el =
-    document.getElementById(id);
+    document.getElementById(
+      id
+    );
+
+  if(!el)
+    return;
+
 
   if(complete){
 
@@ -3047,8 +3049,10 @@ function selectOffer(
   localStorage.setItem(
     "drive_selected_offer",
     JSON.stringify({
+
       name,
       price
+
     })
   );
 
@@ -3064,7 +3068,9 @@ function selectOffer(
 
   }else{
 
-    openAuth("signup");
+    openAuth(
+      "signup"
+    );
 
   }
 
@@ -3082,14 +3088,17 @@ function setSelectValue(
     );
 
   const value =
-    name + "|" + price;
+    name +
+    "|" +
+    price;
 
 
   const option =
     Array.from(
       select.options
     ).find(
-      o => o.value === value
+      o =>
+        o.value === value
     );
 
 
@@ -3111,7 +3120,9 @@ async function showRegistration(){
 
   if(!currentUser){
 
-    openAuth("signup");
+    openAuth(
+      "signup"
+    );
 
     return;
 
@@ -3137,7 +3148,9 @@ async function showRegistration(){
     try{
 
       const offer =
-        JSON.parse(savedOffer);
+        JSON.parse(
+          savedOffer
+        );
 
       setSelectValue(
         offer.name,
@@ -3166,6 +3179,10 @@ function closeRegistration(){
 
 async function loadRegistration(){
 
+  if(!currentUser)
+    return;
+
+
   try{
 
     const {
@@ -3175,7 +3192,10 @@ async function loadRegistration(){
       await supabaseClient
         .from("registrations")
         .select("*")
-        .eq("user_id",currentUser.id)
+        .eq(
+          "user_id",
+          currentUser.id
+        )
         .maybeSingle();
 
 
@@ -3188,50 +3208,63 @@ async function loadRegistration(){
 
 
     document
-      .getElementById("firstName")
+      .getElementById(
+        "firstName"
+      )
       .value =
         data.first_name || "";
 
 
     document
-      .getElementById("lastName")
+      .getElementById(
+        "lastName"
+      )
       .value =
         data.last_name || "";
 
 
     document
-      .getElementById("birthDate")
+      .getElementById(
+        "birthDate"
+      )
       .value =
         data.birth_date || "";
 
 
     document
-      .getElementById("phone")
+      .getElementById(
+        "phone"
+      )
       .value =
         data.phone || "";
 
 
     document
-      .getElementById("address")
+      .getElementById(
+        "address"
+      )
       .value =
         data.address || "";
 
 
     document
-      .getElementById("city")
+      .getElementById(
+        "city"
+      )
       .value =
         data.city || "";
 
 
     document
-      .getElementById("postalCode")
+      .getElementById(
+        "postalCode"
+      )
       .value =
         data.postal_code || "";
 
 
     if(
-      data.offer_name &&
-      data.offer_price
+      data.offer_name
     ){
 
       setSelectValue(
@@ -3255,7 +3288,7 @@ async function loadRegistration(){
 
 
 /* =========================================================
-   SAVE REGISTRATION
+   SAVE + TRANSMIT REGISTRATION
 ========================================================= */
 
 registrationForm.addEventListener(
@@ -3291,6 +3324,10 @@ registrationForm.addEventListener(
 
     try{
 
+      /* =========================
+         FORMATION
+      ========================= */
+
       const offerValue =
         document
           .getElementById(
@@ -3315,6 +3352,10 @@ registrationForm.addEventListener(
         offerValue.split("|");
 
 
+      /* =========================
+         DONNÉES ÉLÈVE
+      ========================= */
+
       const registration = {
 
         user_id:
@@ -3322,42 +3363,56 @@ registrationForm.addEventListener(
 
         first_name:
           document
-            .getElementById("firstName")
+            .getElementById(
+              "firstName"
+            )
             .value
             .trim(),
 
         last_name:
           document
-            .getElementById("lastName")
+            .getElementById(
+              "lastName"
+            )
             .value
             .trim(),
 
         birth_date:
           document
-            .getElementById("birthDate")
+            .getElementById(
+              "birthDate"
+            )
             .value,
 
         phone:
           document
-            .getElementById("phone")
+            .getElementById(
+              "phone"
+            )
             .value
             .trim(),
 
         address:
           document
-            .getElementById("address")
+            .getElementById(
+              "address"
+            )
             .value
             .trim(),
 
         city:
           document
-            .getElementById("city")
+            .getElementById(
+              "city"
+            )
             .value
             .trim(),
 
         postal_code:
           document
-            .getElementById("postalCode")
+            .getElementById(
+              "postalCode"
+            )
             .value
             .trim(),
 
@@ -3365,13 +3420,20 @@ registrationForm.addEventListener(
           offerName,
 
         offer_price:
-          Number(offerPrice)
+          Number(
+            offerPrice
+          )
 
       };
 
 
+      /* =========================
+         ENREGISTREMENT SUPABASE
+      ========================= */
+
       const {
-        error
+        error:
+          registrationError
       } =
         await supabaseClient
           .from("registrations")
@@ -3384,12 +3446,95 @@ registrationForm.addEventListener(
           );
 
 
-      if(error)
-        throw error;
+      if(registrationError)
+        throw registrationError;
 
 
-      await uploadDocuments();
+      /* =========================
+         DOCUMENTS
+      ========================= */
 
+      button.textContent =
+        "Envoi des documents...";
+
+
+      const uploadedDocuments =
+        await uploadDocuments();
+
+
+      /* =========================
+         DOSSIER COMPLET
+      ========================= */
+
+      const dossier = {
+
+        student:{
+
+          id:
+            currentUser.id,
+
+          email:
+            currentUser.email || "",
+
+          firstName:
+            registration.first_name,
+
+          lastName:
+            registration.last_name,
+
+          birthDate:
+            registration.birth_date,
+
+          phone:
+            registration.phone,
+
+          address:
+            registration.address,
+
+          city:
+            registration.city,
+
+          postalCode:
+            registration.postal_code
+
+        },
+
+        offer:{
+
+          name:
+            registration.offer_name,
+
+          price:
+            registration.offer_price
+
+        },
+
+        documents:
+          uploadedDocuments,
+
+        sentAt:
+          new Date()
+            .toISOString()
+
+      };
+
+
+      /* =========================
+         EMAIL
+      ========================= */
+
+      button.textContent =
+        "Transmission du dossier...";
+
+
+      await envoyerDossierParEmail(
+        dossier
+      );
+
+
+      /* =========================
+         FIN
+      ========================= */
 
       localStorage.removeItem(
         "drive_selected_offer"
@@ -3403,18 +3548,23 @@ registrationForm.addEventListener(
 
 
       toast(
-        "Votre dossier a été enregistré."
+        "Dossier transmis avec succès."
       );
 
 
     }catch(error){
 
-      console.error(error);
+      console.error(
+        "Erreur dossier :",
+        error
+      );
+
 
       toast(
         error.message ||
         "Une erreur est survenue."
       );
+
 
     }finally{
 
@@ -3431,7 +3581,7 @@ registrationForm.addEventListener(
 
 
 /* =========================================================
-   DOCUMENT UPLOAD
+   UPLOAD DOCUMENTS SUPABASE
 ========================================================= */
 
 async function uploadDocuments(){
@@ -3452,12 +3602,17 @@ async function uploadDocuments(){
   ];
 
 
+  const uploadedDocuments = [];
+
+
   for(
     const type of documentTypes
   ){
 
     const input =
-      document.getElementById(type);
+      document.getElementById(
+        type
+      );
 
 
     if(
@@ -3475,6 +3630,10 @@ async function uploadDocuments(){
       input.files[0];
 
 
+    /* =========================
+       10 MO MAXIMUM
+    ========================= */
+
     if(
       file.size >
       10 * 1024 * 1024
@@ -3488,6 +3647,10 @@ async function uploadDocuments(){
 
     }
 
+
+    /* =========================
+       FORMATS
+    ========================= */
 
     const allowedTypes = [
 
@@ -3513,13 +3676,20 @@ async function uploadDocuments(){
     }
 
 
-    const safeName =
-      file.name
-        .replace(
-          /[^a-zA-Z0-9._-]/g,
-          "_"
-        );
+    /* =========================
+       NOM SÉCURISÉ
+    ========================= */
 
+    const safeName =
+      file.name.replace(
+        /[^a-zA-Z0-9._-]/g,
+        "_"
+      );
+
+
+    /* =========================
+       CHEMIN
+    ========================= */
 
     const filePath =
       currentUser.id +
@@ -3530,6 +3700,10 @@ async function uploadDocuments(){
       "_" +
       safeName;
 
+
+    /* =========================
+       UPLOAD
+    ========================= */
 
     const {
       error:
@@ -3542,7 +3716,9 @@ async function uploadDocuments(){
           filePath,
           file,
           {
-            upsert:false
+            upsert:false,
+            contentType:
+              file.type
           }
         );
 
@@ -3550,6 +3726,10 @@ async function uploadDocuments(){
     if(uploadError)
       throw uploadError;
 
+
+    /* =========================
+       BDD DOCUMENT
+    ========================= */
 
     const {
       error:
@@ -3583,7 +3763,218 @@ async function uploadDocuments(){
     if(documentError)
       throw documentError;
 
+
+    /* =========================
+       URL TEMPORAIRE
+       5 MINUTES
+    ========================= */
+
+    const {
+      data:
+        signedData,
+
+      error:
+        signedError
+
+    } =
+      await supabaseClient
+        .storage
+        .from("documents")
+        .createSignedUrl(
+          filePath,
+          300
+        );
+
+
+    if(signedError)
+      throw signedError;
+
+
+    uploadedDocuments.push({
+
+      type:
+        type,
+
+      fileName:
+        file.name,
+
+      mimeType:
+        file.type,
+
+      size:
+        file.size,
+
+      filePath:
+        filePath,
+
+      signedUrl:
+        signedData.signedUrl
+
+    });
+
   }
+
+
+  return uploadedDocuments;
+
+}
+
+
+/* =========================================================
+   GOOGLE APPS SCRIPT
+========================================================= */
+
+async function envoyerDossierParEmail(
+  dossier
+){
+
+  return new Promise(
+    (resolve,reject) => {
+
+      const iframe =
+        document.createElement(
+          "iframe"
+        );
+
+
+      iframe.style.display =
+        "none";
+
+
+      iframe.name =
+        "driveMailFrame_" +
+        Date.now();
+
+
+      document.body.appendChild(
+        iframe
+      );
+
+
+      const form =
+        document.createElement(
+          "form"
+        );
+
+
+      form.method =
+        "POST";
+
+
+      form.action =
+        APPS_SCRIPT_URL;
+
+
+      form.target =
+        iframe.name;
+
+
+      form.style.display =
+        "none";
+
+
+      const input =
+        document.createElement(
+          "input"
+        );
+
+
+      input.type =
+        "hidden";
+
+
+      input.name =
+        "data";
+
+
+      input.value =
+        JSON.stringify(
+          dossier
+        );
+
+
+      form.appendChild(
+        input
+      );
+
+
+      document.body.appendChild(
+        form
+      );
+
+
+      let finished =
+        false;
+
+
+      const cleanup =
+        () => {
+
+          if(finished)
+            return;
+
+
+          finished =
+            true;
+
+
+          setTimeout(
+            () => {
+
+              iframe.remove();
+              form.remove();
+
+            },
+            1000
+          );
+
+        };
+
+
+      iframe.onload =
+        () => {
+
+          cleanup();
+
+          resolve();
+
+        };
+
+
+      iframe.onerror =
+        () => {
+
+          cleanup();
+
+          reject(
+            new Error(
+              "La transmission vers le serveur a échoué."
+            )
+          );
+
+        };
+
+
+      form.submit();
+
+
+      setTimeout(
+        () => {
+
+          if(!finished){
+
+            cleanup();
+
+            resolve();
+
+          }
+
+        },
+        5000
+      );
+
+    }
+  );
 
 }
 
@@ -3594,12 +3985,17 @@ async function uploadDocuments(){
 
 async function logout(){
 
-  await supabaseClient.auth.signOut();
+  await supabaseClient
+    .auth
+    .signOut();
+
 
   currentUser =
     null;
 
+
   showHome();
+
 
   toast(
     "Vous êtes déconnecté."
@@ -3622,9 +4018,13 @@ function showHome(){
     "active"
   );
 
+
   window.scrollTo({
+
     top:0,
+
     behavior:"smooth"
+
   });
 
 }
@@ -3637,9 +4037,13 @@ function showHome(){
 function scrollToOffers(){
 
   document
-    .getElementById("offres")
+    .getElementById(
+      "offres"
+    )
     .scrollIntoView({
+
       behavior:"smooth"
+
     });
 
 }
@@ -3648,8 +4052,11 @@ function scrollToOffers(){
 function scrollToTopApp(){
 
   window.scrollTo({
+
     top:0,
+
     behavior:"smooth"
+
   });
 
 }
@@ -3672,7 +4079,9 @@ function paymentPlaceholder(){
    TOAST
 ========================================================= */
 
-function toast(message){
+function toast(
+  message
+){
 
   const el =
     document.getElementById(
@@ -3748,13 +4157,24 @@ function translateSupabaseError(
   }
 
 
+  if(
+    message.includes(
+      "Email not confirmed"
+    )
+  ){
+
+    return "Votre adresse email n'est pas encore confirmée.";
+
+  }
+
+
   return message;
 
 }
 
 
 /* =========================================================
-   CLOSE MODALS ON BACKDROP
+   CLOSE MODALS
 ========================================================= */
 
 authModal.addEventListener(
